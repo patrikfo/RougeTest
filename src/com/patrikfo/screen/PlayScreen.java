@@ -8,7 +8,7 @@ public class PlayScreen implements Screen {
 
     @Override
     public void displayOutput(AsciiPanel terminal) {
-        terminal.write("You are having fun.",1,1);
+        terminal.write("You are having fun and all that.",1,1);
         terminal.writeCenter("-- press [Escape] to lose or [enter] to win.",22);
     }
 
