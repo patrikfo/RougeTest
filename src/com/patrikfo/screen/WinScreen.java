@@ -7,7 +7,7 @@ public class WinScreen implements Screen {
 
     @Override
     public void displayOutput(AsciiPanel terminal) {
-        terminal.write("You won.",1,1);
+        terminal.write("You won, you are awsome.",1,1);
         terminal.writeCenter("-- press [enter] to restart --",22);
     }
     @Override
